@@ -1,3 +1,10 @@
+const { dataFetchedAxios } = require("./axios");
 const { dataFetched } = require("./fetch");
+const { fetchData } = require("./promises");
 
-dataFetched;
+// console.log(fetchData);
+
+// fetchData;
+// dataFetched;
+
+// dataFetchedAxios;
