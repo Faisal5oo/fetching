@@ -1,7 +1,9 @@
-const dataFetched = fetch("https://jsonplaceholder.typicode.com/todos")
-  .then((Response) => {
-    return Response.json(Response);
-  })
-  .then((data) => {
-    console.log(data);
-  });
+const { dataFetchedAxios } = require("./axios");
+const { dataFetched } = require("./fetch");
+const { fetchData } = require("./promises");
+
+// dataFetched;
+
+// dataFetchedAxios;
+
+// fetchData();
